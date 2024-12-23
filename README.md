@@ -2,6 +2,7 @@
 Welcome to Suuq.io – the ultimate online marketplace where YOU can buy, sell, and showcase products, services, and creative content! 🚀 Powered by YOU, our vibrant community of users, Suuq.io lets individuals and businesses effortlessly create listings, upload products, and engage with a dynamic network of buyers and sellers. Whether you're looking to score awesome deals, promote your brand, or simply connect with like-minded people, Suuq.io has everything you need – and it's super easy, secure, and fun to use! Let’s make something amazing happen together! 🌟
 
 ### Features
+
 ***User-Generated Listings:*** Sellers can create and manage their own product and service listings.
 ***Secure Payment Gateway:*** Safe transactions between buyers and sellers.
 ***Ratings and Reviews:*** Buyers can leave feedback on products and services to help others make informed decisions.
@@ -10,6 +11,7 @@ Welcome to Suuq.io – the ultimate online marketplace where YOU can buy, sell, 
 ***Responsive Design:*** Fully optimized for desktop and mobile devices, providing a seamless experience on any platform.
 
 ### Technologies Used
+
 ***Frontend:*** Vue 3, TypeScript, Vite
 ***Backend:*** Node.js, Express
 ***Database:*** DynamoDB, Pinecone
@@ -78,29 +80,30 @@ A modern web browser.
 Clone the Repository
 
         git clone https://github.com/mhassan72/app.git
-        cd suuq.io
+        cd app
 
 ### Install Dependencies
 Install the required dependencies:
 
-        Copy code
+Copy code
+        
         npm install
-        Set Up Environment Variables
-        Create a .env file in the root directory and add your environment variables. Example:
+        # Set Up Environment Variables
 
-        bash
-        Copy code
+Create a .env file in the root directory and add your environment variables. Example:
+        
         AWS_REGION=eu-west-2
         DYNAMODB_TABLE=Products
         JWT_SECRET=your_secret_key
         PAYMENT_GATEWAY_API_KEY=payment_gateway_api_key
-        Run Locally
-        To run the application locally for development:
 
+Run Locally
 
-        Copy code
+To run the application locally for development:
+        
         npm run dev
-        The application will be available at http://localhost:3000.
+
+The application will be available at http://localhost:3000.
 
 ### Deployment
 Deploying to AWS
