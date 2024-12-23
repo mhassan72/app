@@ -84,12 +84,10 @@ Clone the Repository
 
 ### Install Dependencies
 Install the required dependencies:
-
-Copy code
         
         npm install
-        # Set Up Environment Variables
 
+### Set Up Environment Variables
 Create a .env file in the root directory and add your environment variables. Example:
         
         AWS_REGION=eu-west-2
@@ -97,8 +95,7 @@ Create a .env file in the root directory and add your environment variables. Exa
         JWT_SECRET=your_secret_key
         PAYMENT_GATEWAY_API_KEY=payment_gateway_api_key
 
-Run Locally
-
+### Run Locally
 To run the application locally for development:
         
         npm run dev
