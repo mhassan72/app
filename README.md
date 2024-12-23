@@ -20,56 +20,29 @@ Payment: Integrated secure payment gateway (e.g., Stripe or PayPal)
 ### Directory Structure
 The structure of the project is organized as follows:
 
-        css
-        Copy code
         src
         ├── App.vue
         ├── assets
-        │   ├── base.css
-        │   ├── logo.svg
-        │   └── main.css
         ├── components
         ├── controllers
-        │   ├── orders.ts
-        │   ├── products.ts
-        │   ├── search.ts
-        │   └── users.ts
         ├── layouts
         ├── main.ts
         ├── models
-        │   ├── order.ts
-        │   ├── product.ts
-        │   ├── review.ts
-        │   └── user.ts
         ├── router
-        │   └── index.ts
         ├── services
         ├── store
         ├── styles
         ├── utils
         └── views
             ├── auth
-            │   ├── IndexView.vue
-            │   ├── PasswordReset.vue
-            │   ├── SignIn.vue
-            │   └── SignUp.vue
             ├── products
-            │   ├── ListProducts.vue
-            │   ├── NewProduct.vue
-            │   ├── ProductDetails.vue
-            │   └── UpdateProduct.vue
             ├── search
-            │   ├── Recommendations.vue
-            │   └── Result.vue
             └── users
-                └── UserProfile.vue
 
         amplify
         ├── auth
-        │   └── resource.ts
         ├── backend.ts
         ├── data
-        │   └── resource.ts
         ├── package.json
         └── tsconfig.json
 
