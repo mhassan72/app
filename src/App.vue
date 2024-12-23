@@ -1,10 +1,8 @@
-<script setup lang="ts">
-import Todos from './components/Todos.vue'
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <main>
-    <Todos />
+    <h1>Hello world!</h1>
   </main>
 </template>
 
