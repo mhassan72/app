@@ -77,7 +77,7 @@ Node.js and npm installed on your local machine.
 AWS account and access to the necessary services (Lambda, DynamoDB, S3, etc.).
 A modern web browser.
 
-Clone the Repository
+### Clone the Repository
 
         git clone https://github.com/mhassan72/app.git
         cd app
