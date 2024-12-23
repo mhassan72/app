@@ -75,25 +75,27 @@ The structure of the project is organized as follows:
 
 
 ### Breakdown of Key Directories:
-assets/: Static assets such as images and CSS files.
-components/: Vue components used across different views.
-controllers/: Logic to handle orders, products, search, and user-related operations.
-layouts/: Vue layout components for different page structures.
-models/: TypeScript models for data structures like order, product, review, and user.
-router/: Vue Router setup and routing logic.
-services/: API and service integrations.
-views/: Views for different sections of the app, such as authentication, products, and user profiles.
-amplify/: AWS Amplify configuration files.
-Getting Started
+***assets/:*** Static assets such as images and CSS files.
+***components/:*** Vue components used across different views.
+***controllers/:*** Logic to handle orders, products, search, and user-related operations.
+***layouts/:*** Vue layout components for different page structures.
+***models/:*** TypeScript models for data structures like order, product, review, and user.
+***router/:*** Vue Router setup and routing logic.
+***services/:*** API and service integrations.
+***views/:*** Views for different sections of the app, such as authentication, products, and user profiles.
+***amplify/:*** AWS Amplify configuration files.
+
+### Getting Started
 To get started with Suuq.io, follow these steps:
 
 ### Prerequisites
 Node.js and npm installed on your local machine.
 AWS account and access to the necessary services (Lambda, DynamoDB, S3, etc.).
 A modern web browser.
+
 Clone the Repository
 
-        git clone https://github.com/your-username/suuq.io.git
+        git clone https://github.com/mhassan72/app.git
         cd suuq.io
 
 ### Install Dependencies
@@ -107,9 +109,9 @@ Install the required dependencies:
         bash
         Copy code
         AWS_REGION=eu-west-2
-        DYNAMODB_TABLE=Titles
+        DYNAMODB_TABLE=Products
         JWT_SECRET=your_secret_key
-        PAYMENT_GATEWAY_API_KEY=your_payment_gateway_api_key
+        PAYMENT_GATEWAY_API_KEY=payment_gateway_api_key
         Run Locally
         To run the application locally for development:
 
