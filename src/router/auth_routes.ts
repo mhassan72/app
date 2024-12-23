@@ -1,5 +1,5 @@
 // Public Routes 
-import PublicLayer from '@/layouts/PublicLayer.vue'
+import PublicLayer from '@/layouts/PublicLayout.vue'
 import Recommendations from '@/views/search/Recommendations.vue'
 
 const AuthRoutes =  {
